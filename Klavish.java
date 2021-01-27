@@ -75,18 +75,5 @@ public void play() {
 	} 
 	}
 }
-public void paint(Graphics g,int x,int y,JFrame f) {
-	Graphics2D g2d = (Graphics2D) g;
-    super.paintComponent(g);
-   
 
-    g2d.setColor(new Color(212, 212, 212));
-    g2d.drawRect(x*this.size1, y*this.size2, this.size1, this.size2);
-
-
-    g2d.setColor(new Color(31, 21, 1));
-    g2d.fillRect(x*this.size1, y*this.size2, this.size1, this.size2);
-
-  f.add(this);
-}
 }
